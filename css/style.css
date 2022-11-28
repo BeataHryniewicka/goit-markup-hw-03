@@ -17,13 +17,14 @@ body {
 }
 .container {
     width: 1200px;
+    margin: 0 auto;
 }
 .section {
-    display: flexbox;
-    align-items: center;
+    display:flex;
     margin-top: 94px;
+    align-items: center;
 }
-
+   
 .link-logo {
     font-family: Raleway;
     font-weight: 700;
@@ -32,6 +33,11 @@ body {
     letter-spacing: 0.02em;
     text-align: left;
     font-size: 26px;
+    margin-top: 24px;
+    margin-bottom: 25px;
+    margin-left: 215px;
+    width: 145px;
+    display: inline-block;
 }
 .link-logo:hover,
 .link-logo:focus {
@@ -39,6 +45,12 @@ body {
 }
 .style {
     list-style: none;
+    display: flex;
+    align-items: center;
+}
+.topper {
+    display: flex;
+    align-items: center;
 }
 .nav-link {
     font-weight: 500;
@@ -46,6 +58,8 @@ body {
     letter-spacing: 0.02em;
     text-decoration: none;
     color: var(--brand-color-dark-grey);
+    margin-top: 32px;
+    padding-left: 93px;
 }
 .nav-link:hover,
 .nav-link:focus {
@@ -68,6 +82,9 @@ body {
 .contact:hover,
 .contact:focus {
     color: var(--brand-color-blue);
+}
+.contact li:nth-last-child (n + 2){
+    margin-left: 50px;
 }
 
 .black {color: var(--brand-color-black);
