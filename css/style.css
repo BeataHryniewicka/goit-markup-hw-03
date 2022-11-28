@@ -15,7 +15,13 @@ body {
     --brand-color-light-grey: #F5F4FA;
 
 }
-
+.container {
+    width: 1200px;
+}
+.section {
+    display: flexbox;
+    padding: 
+}
 .link-logo {
     font-family: Raleway;
     font-weight: 700;
