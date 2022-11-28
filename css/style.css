@@ -20,8 +20,9 @@ body {
 }
 .section {
     display: flexbox;
-    padding: 
+    margin-top: 94px;
 }
+
 .link-logo {
     font-family: Raleway;
     font-weight: 700;
