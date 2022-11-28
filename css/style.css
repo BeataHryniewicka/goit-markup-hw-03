@@ -20,6 +20,7 @@ body {
 }
 .section {
     display: flexbox;
+    align-items: center;
     margin-top: 94px;
 }
 
