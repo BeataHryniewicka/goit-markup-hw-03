@@ -20,7 +20,8 @@ body {
     margin: 0 auto;
 }
 .section {
-    margin-top: 94px;
+    padding-top: 94px;
+    padding-bottom: 94px;
     align-items: center;
 }
    
