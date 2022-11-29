@@ -20,7 +20,6 @@ body {
     margin: 0 auto;
 }
 .section {
-    display:flex;
     margin-top: 94px;
     align-items: center;
 }
@@ -49,8 +48,8 @@ body {
     align-items: center;
 }
 .topper {
-    display: flex;
     align-items: center;
+    display: flex;
 }
 .nav-link {
     font-weight: 500;
@@ -59,7 +58,8 @@ body {
     text-decoration: none;
     color: var(--brand-color-dark-grey);
     margin-top: 32px;
-    padding-left: 93px;
+    margin-bottom: 32px;
+    padding-left: 46px;
 }
 .nav-link:hover,
 .nav-link:focus {
@@ -83,7 +83,7 @@ body {
 .contact:focus {
     color: var(--brand-color-blue);
 }
-.contact li:nth-last-child (n + 2){
+.contact>li:nth-last-child (n + 2){
     margin-left: 50px;
 }
 
