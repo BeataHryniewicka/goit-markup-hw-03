@@ -59,12 +59,16 @@ body {
     color: var(--brand-color-dark-grey);
     margin-top: 32px;
     margin-bottom: 32px;
-    padding-left: 46px;
+    margin-left: 46px;
 }
 .nav-link:hover,
 .nav-link:focus {
     color: var(--brand-color-blue)
     } 
+.nav-link:last-child {
+    margin-left: 50px;
+    margin-right: 227px;
+}
 .link-current {  
     color: var(--brand-color-blue);    
 }
@@ -83,7 +87,7 @@ body {
 .contact:focus {
     color: var(--brand-color-blue);
 }
-.contact>li:nth-last-child (n + 2){
+.contact:last-child {
     margin-left: 50px;
 }
 
