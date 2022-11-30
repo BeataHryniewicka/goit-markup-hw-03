@@ -126,7 +126,7 @@ ul, h1, h2, h3, p, li {
     text-align: center;
     color: var(--brand-color-white);
     letter-spacing: 0.06em;
-    padding: 200px 452px 30px;
+    padding: 200px 252px 30px;
     margin: 0;
     font-family: Roboto;
    
@@ -143,8 +143,8 @@ ul, h1, h2, h3, p, li {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     text-align: center;
     padding: 10px,41px,10px,42px;
-   margin-left: 700px;
-   margin-right: 700px;
+   margin-left: 500px;
+   margin-right: 500px;
    width: 200px;
    margin-bottom: 200px;
  
