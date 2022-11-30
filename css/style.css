@@ -13,18 +13,20 @@ body {
     --brand-color-black: #000000;
     --brand-color-background-black: #2F303A;
     --brand-color-light-grey: #F5F4FA;
-
+}
+* {
+  box-sizing: border-box;
 }
 .container {
-    width: 1200px;
-    margin: 0 auto;
+    width: 1200px; 
 }
-.section {
-    padding-top: 94px;
-    padding-bottom: 94px;
+.topper {
     align-items: center;
-}
-   
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ECECEC;
+    width: 1600px;
+} 
 .link-logo {
     font-family: Raleway;
     font-weight: 700;
@@ -35,40 +37,47 @@ body {
     font-size: 26px;
     margin-top: 24px;
     margin-bottom: 25px;
-    margin-left: 15px;
+    margin-left: 215px; 
+    margin-right: 93px;
     width: 145px;
-   
 }
 .link-logo:hover,
 .link-logo:focus {
     color: var(--brand-color-blue)
+}
+ul h1 h2 h3 p { 
+  margin: 0;
+  padding: 0;
 }
 .style {
     list-style: none;
     display: flex;
     align-items: center;
 }
-.topper {
-    align-items: center;
-    display: flex;
-}
+ .first {
+    width: 254px;
+    justify-content: space-between;
+    margin-right: 371px;
+ } 
+ .second {
+    justify-content: space-between;
+ } 
+ .second:last-child {
+    margin-left: 51px;
+ }
 .nav-link {
     font-weight: 500;
     line-height: 1,14;
     letter-spacing: 0.02em;
     text-decoration: none;
     color: var(--brand-color-dark-grey);
-    margin-top: 32px;
-    margin-bottom: 32px;
-    margin-left: 46px;
+    display: flex;
+    justify-content: space-between;
 }
 .nav-link:hover,
 .nav-link:focus {
     color: var(--brand-color-blue)
     } 
-.nav-link:first-child {
-    margin-left: 93px;
-}
 .link-current {  
     color: var(--brand-color-blue);    
 }
@@ -76,22 +85,23 @@ body {
 .link-current:focus {
     color: var(--brand-color-blue);
 }
+.section {
+    padding-top: 94px;
+}
+
 .contact {
     color: var(--brand-color-grey);
     text-decoration: none;
     text-align: left;
     letter-spacing: 0.02em;
     font-weight: 500;
+    display: flex;
 }  
+/* brakuje odstępu telefonu i maila */
 .contact:hover,
 .contact:focus {
     color: var(--brand-color-blue);
 }
-.contact:last-child {
-    margin-left: 50px;
-    margin-right: 27px;
-}
-
 .black {color: var(--brand-color-black);
 }
 .blue {color: var(--brand-color-blue);
@@ -100,6 +110,7 @@ body {
 }
 .hero-background {
     background-color:var(--brand-color-background-black);
+    width: 1600px;
 }
 .hero-tittle {
     font-weight: 900; 
@@ -109,6 +120,10 @@ body {
     text-align: center;
     color: var(--brand-color-white);
     letter-spacing: 0.06em;
+    padding: 200px 452px 280px;
+    margin: 0;
+    font-family: Roboto;
+    width: 1600px;
 }
 .hero-btn {
     font-weight: 700;
@@ -120,9 +135,11 @@ body {
     cursor: pointer;
     font-family: inherit;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    display: flex;
-    align-items: center;
     text-align: center;
+    padding: 10px,41px,10px,42px;
+   margin-left: 700px;
+   margin-right: 700px;
+ /* brakuje wsunięcia do środka przycisku */
 }
 .visually-hidden {
     position: absolute;
@@ -202,6 +219,8 @@ address {
     line-height: 1.71; 
     text-align: left;
     letter-spacing: 0.02em; 
+    display: flex;
+    flex-direction: column;
 }
 .footer-contact-bright {
     color: var(--brand-color-white);
