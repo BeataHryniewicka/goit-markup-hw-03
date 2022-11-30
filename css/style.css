@@ -14,9 +14,12 @@ body {
     --brand-color-background-black: #2F303A;
     --brand-color-light-grey: #F5F4FA;
 }
-* {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
+
 .container {
     width: 1200px; 
 }
