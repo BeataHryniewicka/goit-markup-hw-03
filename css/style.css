@@ -116,7 +116,7 @@ ul, h1, h2, h3, p, li {
 }
 .hero-background {
     background-color:var(--brand-color-background-black);
-    width: 1600px;
+ 
 }
 .hero-tittle {
     font-weight: 900; 
