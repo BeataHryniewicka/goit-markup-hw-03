@@ -21,18 +21,29 @@ body {
 }
 
 .container {
-    width: 1200px; 
+    max-width: 1200px; 
     padding: 0 15px;
     margin: 0 auto;
    
 }
 .topper {
-    align-items: center;
+    border-bottom: 1px solid #ECECEC;
+} 
+.header-left {
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid #ECECEC;
-
-} 
+    align-items: center;
+}
+.style {
+    list-style: none;
+    display: flex;justify-content: space-between;
+}
+ .first {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    
+ } 
 .link-logo-header {
     font-family: Raleway;
     font-weight: 700;
@@ -54,15 +65,6 @@ ul, h1, h2, h3, p, li {
   margin: 0;
   padding: 0;
 }
-.style {
-    list-style: none;
-    display: flex;
-}
- .first {
-    width: 254px;
-    justify-content: space-between;
-    align-items: center;
- } 
  .second {
     justify-content: space-between;
     align-items: center;
