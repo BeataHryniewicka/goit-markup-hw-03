@@ -23,26 +23,27 @@ body {
 .container {
     width: 1200px; 
     padding: 0 15px;
-    margin: auto;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 .topper {
     align-items: center;
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid #ECECEC;
-    width: 1600px;
+
 } 
-.link-logo {
+.link-logo-header {
     font-family: Raleway;
     font-weight: 700;
     text-decoration: none;
-    line-height: 1,19;
+    line-height: 1.19;
     letter-spacing: 0.02em;
     text-align: left;
     font-size: 26px;
     margin-top: 24px;
     margin-bottom: 25px;
-    margin-left: 215px; 
+    
     margin-right: 93px;
     width: 145px;
 }
@@ -50,22 +51,22 @@ body {
 .link-logo:focus {
     color: var(--brand-color-blue)
 }
-ul h1 h2 h3 p { 
+ul, h1, h2, h3, p, li { 
   margin: 0;
   padding: 0;
 }
 .style {
     list-style: none;
     display: flex;
-    align-items: center;
 }
  .first {
     width: 254px;
     justify-content: space-between;
-    margin-right: 371px;
+    align-items: center;
  } 
  .second {
     justify-content: space-between;
+    align-items: center;
  } 
  .second:last-child {
     margin-left: 51px;
@@ -93,16 +94,17 @@ ul h1 h2 h3 p {
 .section {
     padding-top: 94px;
 }
-
 .contact {
     color: var(--brand-color-grey);
     text-decoration: none;
     text-align: left;
     letter-spacing: 0.02em;
     font-weight: 500;
-    display: flex;
 }  
-/* brakuje odstępu telefonu i maila */
+.contact:last-child {
+    margin-left: 51px;
+    margin-right: 27px;
+}
 .contact:hover,
 .contact:focus {
     color: var(--brand-color-blue);
@@ -125,7 +127,7 @@ ul h1 h2 h3 p {
     text-align: center;
     color: var(--brand-color-white);
     letter-spacing: 0.06em;
-    padding: 200px 452px 280px;
+    padding: 200px 452px 30px;
     margin: 0;
     font-family: Roboto;
     width: 1600px;
@@ -144,7 +146,9 @@ ul h1 h2 h3 p {
     padding: 10px,41px,10px,42px;
    margin-left: 700px;
    margin-right: 700px;
- /* brakuje wsunięcia do środka przycisku */
+   width: 200px;
+   margin-bottom: 200px;
+ 
 }
 .visually-hidden {
     position: absolute;
@@ -181,6 +185,7 @@ ul h1 h2 h3 p {
 .team {
     text-align: center;
     background-color: var(--brand-color-light-grey);
+    width: 1600px;
   
 }
 .team-shadow {
@@ -227,10 +232,28 @@ address {
     width: 1600px; 
     display: flex;
     flex-direction: column;
+    padding-top: 60px;
+    padding-bottom:60px;
+    
+}
+    .link-logo-footer {
+    font-family: Raleway;
+    font-weight: 700;
+    text-decoration: none;
+    line-height: 1.19;
+    letter-spacing: 0.02em;
+    text-align: left;
+    font-size: 26px;
+    width: 145px;  
+}
+.third { 
+    flex-direction: column;
 }
 .footer-contact-bright {
     color: var(--brand-color-white);
     text-decoration: none;
+    margin-top: 20px;
+    line-height: 1.71,
 }
 .footer-contact-bright:hover,
 .footer-contact-bright:focus { 
@@ -239,7 +262,7 @@ address {
 .footer-contact-light {
     filter: opacity(60%); 
     text-decoration: none;
-    color: var(--brand-color-white);
+    color: var(--brand-color-white);margin-top:9px;
 }
 .footer-contact-light:hover,
 .footer-contact-light:focus { 
@@ -253,6 +276,14 @@ address {
 .footer-contact-light-mail:focus { 
     color: var(--brand-color-blue);
 } 
+.cards {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap-row: 30px;
+    gap-column: 20px;
+
+}
 .kind-of-services {
     font-size: 18px;
     font-weight: 700;
