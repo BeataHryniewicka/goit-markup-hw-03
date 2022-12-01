@@ -89,6 +89,7 @@ ul, h1, h2, h3, p, li {
 }
 .section {
     padding-bottom: 94px;
+    padding-top: 94px;
 }
 .contact {
     color: var(--brand-color-grey);
@@ -110,7 +111,7 @@ ul, h1, h2, h3, p, li {
 }
 .white {color: var(--brand-color-white);
 }
-.hero-background {
+.background-dark {
     background-color:var(--brand-color-background-black);
 }
 .hero-tittle {
@@ -158,7 +159,7 @@ ul, h1, h2, h3, p, li {
     font-weight: 700;
     line-height: 1.14;
     text-transform: uppercase;
-    font-size: 14px; 
+    font-size: 14px;
 }
 .articles p { 
     text-align: left;
@@ -173,7 +174,6 @@ ul, h1, h2, h3, p, li {
     text-align: center;
     letter-spacing: 0.03em;
     margin-bottom: 50px;
-    padding-top: 94px;
 }
 .team {
     text-align: center;
@@ -188,7 +188,6 @@ ul, h1, h2, h3, p, li {
     font-size: 16px;
     line-height: 1.18;
     margin-top: 30px;
- 
 }
 .team p {
     line-height: 1.18;
@@ -203,10 +202,10 @@ ul, h1, h2, h3, p, li {
     align-items: center;
     margin-left: 332px;
     gap: 30px;
-    margin-top: 100px;
     list-style: none;
+    margin-top: 6px;
+    margin-bottom: 56px;
 }
-
 .filters-btn {
     font-weight: 500;
     background-color: var(--brand-color-light-grey);
@@ -228,7 +227,6 @@ address {
     margin-top: 20px;
 }
 .footer-contact {
-    background-color: var(--brand-color-background-black);
     line-height: 1.71; 
     letter-spacing: 0.02em;
     display: flex;
@@ -237,7 +235,7 @@ address {
     padding-bottom: 60px;
     text-align: left; 
 }
-    .link-logo-footer {
+.link-logo-footer {
     font-family: Raleway;
     font-weight: 700;
     text-decoration: none;
@@ -283,7 +281,6 @@ address {
     justify-content: space-between;
     row-gap: 30px;
     column-gap: 20px;
-
 }
 .kind-of-services {
     font-size: 18px;
@@ -292,7 +289,6 @@ address {
     text-align: left;
     letter-spacing: 0.06em;
 }
-
 .group-of-services {
     font-size: 16px;
     line-height: 1.87;
