@@ -222,7 +222,7 @@ ul, h1, h2, h3, p, li {
         color: var(--brand-color-white);
         cursor: pointer;
 }
-address {
+ .contact-footer {
     font-style: normal;
     margin-top: 20px;
 }
