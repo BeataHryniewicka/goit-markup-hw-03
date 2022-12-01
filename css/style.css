@@ -280,7 +280,7 @@ address {
     flex-wrap: wrap;
     justify-content: space-between;
     row-gap: 30px;
-    column-gap: 20px;
+    column-gap: 30px;
 }
 .kind-of-services {
     font-size: 18px;
@@ -294,7 +294,6 @@ address {
     line-height: 1.87;
     text-align: left;
     color: var(--brand-color-grey);
+    border-bottom: 1px solid #EEEEEE;
     }
-    .border {
-        border: 1px solid #EEEEEE
-    }
+    
