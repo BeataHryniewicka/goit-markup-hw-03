@@ -5,6 +5,36 @@ body {
   font-size: 14px;
   letter-spacing: 0.03em;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+address {
+  font-style: normal;
+}
+button {
+  display: block;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
 :root {
   --brand-color-dark-grey: #212121;
   --brand-color-white: #ffffff;
@@ -18,11 +48,6 @@ body {
 *::before,
 *::after {
   box-sizing: border-box;
-}
-.container {
-  max-width: 1200px;
-  padding: 0 15px;
-  margin: 0 auto;
 }
 .topper {
   border-bottom: 1px solid #ececec;
@@ -55,15 +80,6 @@ body {
 .link-logo:hover,
 .link-logo:focus {
   color: var(--brand-color-blue);
-}
-ul,
-h1,
-h2,
-h3,
-p,
-li {
-  margin: 0;
-  padding: 0;
 }
 .second {
   display: flex;
