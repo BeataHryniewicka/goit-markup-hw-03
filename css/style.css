@@ -22,6 +22,8 @@ img {
 ul,
 ol {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 a {
   text-decoration: none;
@@ -67,12 +69,11 @@ button {
   align-items: center;
 }
 .style {
-  
   display: flex;
+  gap: 30px;
 }
 .first {
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 .link-logo-header {
@@ -149,6 +150,7 @@ button {
 }
 .background-dark {
   background-color: var(--brand-color-background-black);
+  padding: 200px 0;
 }
 .hero-tittle {
   font-weight: 900;
@@ -158,9 +160,9 @@ button {
   text-align: center;
   color: var(--brand-color-white);
   letter-spacing: 0.06em;
-  padding: 200px 252px 30px;
-  margin: 0;
-  font-family: Roboto;
+  margin: 0 auto;
+  margin-bottom: 30px;
+ width: 696px;
 }
 .hero-btn {
   font-weight: 700;
@@ -169,15 +171,10 @@ button {
   color: var(--brand-color-white);
   letter-spacing: 0.06em;
   background-color: var(--brand-color-blue);
-  cursor: pointer;
-  font-family: inherit;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   text-align: center;
-  padding: 10px, 41px, 10px, 42px;
-  margin-left: 500px;
-  margin-right: 500px;
-  width: 200px;
-  margin-bottom: 200px;
+  min-width: 200px;
+  margin: 0 auto;
 }
 .visually-hidden {
   position: absolute;
@@ -191,17 +188,20 @@ button {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.articles h3 {
+.tittle {
   font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
-  font-size: 14px;
+  font-style: bold;
+  margin-bottom: 10px;
 }
-.articles p {
+.description {
   text-align: left;
   color: var(--brand-color-grey);
   line-height: 1.71;
-  margin-right: 30px;
+}
+.work {
+  padding-top: 0;
 }
 .second-tittles {
   font-size: 36px;
@@ -211,47 +211,37 @@ button {
   letter-spacing: 0.03em;
   margin-bottom: 50px;
 }
-.second-item {
-  margin-right: 30px;
-}
-.second-item:not(:last-child) {
-  margin-right: 30px;
-}
 .team {
   text-align: center;
   background-color: var(--brand-color-light-grey);
 }
 .team-item {
-  margin-right: 30px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+  background-color:  var(--brand-color-white);
 }
-.team-item:not(:last-child) {
-  margin-right: 30px;
+.team-presentaction {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .team h3 {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
-  margin-top: 30px;
 }
 .team p {
   line-height: 1.18;
   font-size: 16px;
   color: var(--brand-color-grey);
   letter-spacing: 0.03em;
-  margin-bottom: 30px;
   margin-top: 10px;
 }
 .label-btn {
   display: flex;
-  align-items: center;
-  margin-left: 332px;
   gap: 30px;
-  list-style: none;
-  margin-top: 6px;
   margin-bottom: 56px;
+  space-between;
 }
 .filters-btn {
   font-weight: 500;
@@ -269,19 +259,22 @@ button {
   color: var(--brand-color-white);
   cursor: pointer;
 }
+.footer {
+  padding: 60px 0;
+}
 .contact-down {
   font-style: normal;
   margin-top: 20px;
 }
-.footer-contact {
-  line-height: 1.71;
-  letter-spacing: 0.02em;
-  display: flex;
-  flex-direction: column;
-  padding-top: 60px;
-  padding-bottom: 60px;
-  text-align: left;
+.third {
+  display: block}
+.footer-item {
+  margin-bottom: 9px;
 }
+
+.footer-item:not(:last-child) {
+ margin-bottom: 9px; }
+
 .link-logo-footer {
   font-family: Raleway;
   font-weight: 700;
@@ -290,10 +283,6 @@ button {
   letter-spacing: 0.02em;
   text-align: left;
   font-size: 26px;
-}
-.third {
-  flex-direction: column;
-  padding-left: 0;
 }
 .footer-contact-bright {
   color: var(--brand-color-white);
