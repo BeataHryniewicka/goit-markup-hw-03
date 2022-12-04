@@ -75,7 +75,7 @@ button {
 }
 .first {
   display: flex;
-  align-items: center;
+  
 }
 .link-logo-header {
   font-family: Raleway;
@@ -273,7 +273,6 @@ button {
 .footer-item {
   margin-bottom: 9px;
 }
-
 .footer-item:not(:last-child) {
  margin-bottom: 9px; }
 
