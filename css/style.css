@@ -75,7 +75,7 @@ button {
 }
 .first {
   display: flex;
-  
+  align-items: center;
 }
 .link-logo-header {
   font-family: Raleway;
@@ -97,6 +97,7 @@ button {
   display: flex;
   align-items: center;
   margin-left: auto;
+
 }
 .nav-item {
   margin-right: 50px;
@@ -130,9 +131,7 @@ button {
   letter-spacing: 0.02em;
   font-weight: 500;
 }
-.contact-item {
-  margin-right: 50px;
-}
+
 .contact-item:not(:last-child) {
   margin-right: 50px;
 }
