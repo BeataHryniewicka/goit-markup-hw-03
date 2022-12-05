@@ -94,9 +94,9 @@ button {
   margin-left: auto;
 }
 .nav-item {
-display: flex;
+  display: flex;
 }
-  
+
 .nav-item:not(:last-child) {
   margin-right: 50px;
 }
@@ -157,7 +157,7 @@ display: flex;
   letter-spacing: 0.06em;
   margin: 0 auto;
   margin-bottom: 30px;
- width: 696px;
+  width: 696px;
 }
 .hero-btn {
   font-weight: 700;
@@ -183,7 +183,7 @@ display: flex;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-} 
+}
 .description-list {
   display: flex;
   gap: 30px;
@@ -228,7 +228,7 @@ display: flex;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-  background-color:  var(--brand-color-white);
+  background-color: var(--brand-color-white);
 }
 .team-presentaction {
   padding-top: 30px;
@@ -251,7 +251,6 @@ display: flex;
   gap: 8px;
   margin-bottom: 56px;
   justify-content: center;
-  
 }
 .filters-btn {
   font-weight: 500;
@@ -278,10 +277,11 @@ display: flex;
   margin-top: 20px;
 }
 .third {
-  display: block
+  display: block;
 }
 .footer-item:not(:last-child) {
- margin-bottom: 9px; }
+  margin-bottom: 9px;
+}
 
 .link-logo-footer {
   font-family: Raleway;
@@ -308,7 +308,6 @@ display: flex;
   color: var(--brand-color-white);
   margin-top: 9px;
   line-height: 1.71;
- 
 }
 .footer-contact-light:hover,
 .footer-contact-light:focus {
@@ -328,11 +327,10 @@ display: flex;
   flex-wrap: wrap;
   row-gap: 30px;
   column-gap: 30px;
-  
 }
 .services {
   padding: 20px 24px;
-   border: 1px solid #eeeeee;
+  border: 1px solid #eeeeee;
 }
 .kind-of-services {
   font-size: 18px;
@@ -347,5 +345,4 @@ display: flex;
   line-height: 1.87;
   text-align: left;
   color: var(--brand-color-grey);
- 
 }
