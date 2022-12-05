@@ -4,7 +4,6 @@ body {
   color: var(--brand-color-dark-grey);
   font-size: 14px;
   letter-spacing: 0.03em;
-  max-width: 1600px;
 }
 h1,
 h2,
@@ -71,7 +70,7 @@ button {
 }
 .style {
   display: flex;
-  gap: 30px;
+ 
 }
 .first {
   display: flex;
